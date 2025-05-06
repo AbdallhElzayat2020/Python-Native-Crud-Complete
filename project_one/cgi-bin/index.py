@@ -37,7 +37,6 @@ print("""
       <tbody>
 """)
 
-# جلب المستخدمين
 conn = db.connect()
 cursor = conn.cursor()
 cursor.execute("SELECT * FROM users")

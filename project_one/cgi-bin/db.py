@@ -5,6 +5,6 @@ def connect():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="",  # حط الباسورد بتاع MySQL هنا
+        password="", 
         database="crud_python"
     )
